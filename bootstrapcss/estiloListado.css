@@ -1,0 +1,51 @@
+.iconosEstaciones{
+	width: 3.55rem;
+	
+}
+.imgIconos{
+	width: 100%;
+}
+.titulos{
+	margin-top: 10px;
+	margin-left:-15px;
+
+
+
+
+}
+.txtTablaUser{
+	text-align: left;
+	
+}
+ .Mostrar{
+ 	display: none;
+ }
+
+
+.rojo{
+	background-color: red;
+}
+.amarrillo{
+	background-color: yellow;
+}
+@media screen and (max-width:1000px) and (min-width:0px) {
+    
+.ocultar{
+	display: none;
+}
+.txtTablaUser{
+	text-align: center;
+	font-size: 13px;
+}
+ .Mostrar{
+ 	display: inline;
+ }
+
+}
+
+
+/*.titulosphone{
+	margin-top: 10px;
+	margin-left:-5px;
+	font-size:15px;
+}*/

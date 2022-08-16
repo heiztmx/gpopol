@@ -1,0 +1,158 @@
+body label {
+    font-size: 20px;
+}
+
+.magna {
+    background-color: #008558;
+    color: white;
+    border: 0px;
+    border-left: 1px white solid;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+}
+
+.premium {
+    background-color: #8c1937;
+  
+    color: white;
+    border: 0px;
+    border-left: 1px white solid;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+}
+
+.diesel {
+    background-color: #343A40;
+    color: white;
+    border: 0px;
+    border-left: 1px white solid;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+}
+
+h1 {
+    text-align: center;
+}
+.logo{
+height: 3.75rem;
+}
+
+#botones{
+display: flex;
+justify-content:center;
+align-items: center;
+    width: 100%;
+    
+}
+
+
+#botones a{
+    cursor: pointer;
+    margin:2px;
+    width:50%;
+    padding:10px;
+    color:white;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    background-color: #6C757D;
+  
+}
+#botones a:hover{
+    text-decoration: none;
+    cursor: pointer;
+    
+    background-color: #23272B;
+}
+
+.bajar{
+   position:relative;
+   top:6px;
+}
+
+.preloaderModal {
+  width: 25px;
+  height: 25px;
+  border: 10px solid #eee;
+  border-top: 10px solid #666;
+  border-radius: 50%;
+  margin-top:3px;
+  margin-left:10px;
+  animation-name: girarModal;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
+}
+@keyframes girarModal {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.preloader {
+  width: 25px;
+  height: 25px;
+  border: 10px solid #eee;
+  border-top: 10px solid #666;
+  border-radius: 50%;
+  margin-top:3px;
+  margin-left:10px;
+  animation-name: girar;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
+}
+@keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#facturacion{
+  text-align:center;
+}
+.imagenmodal{
+
+margin-left:10px;
+width:40px;
+height:30px;
+
+}
+.dt{
+  margin-left:-100px;
+
+}
+
+@media screen and (max-width:1000px) and (min-width:0px) {
+
+  .dt{
+    margin-left: 0px;
+  }
+}

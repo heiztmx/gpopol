@@ -1,0 +1,99 @@
+.div_contenedor {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.ui-autocomplete {
+  z-index: 2147483647;
+  width: 200px;
+}
+.centrar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+i {
+  cursor: pointer;
+}
+
+.circulo_numero{
+  height: 5px;
+  width: 5px;
+  border-radius: 100%;
+  background-color: gray;
+  color:white; 
+  padding: 10px;
+  margin-left: 5px;
+  font-size: 5px !important; 
+}
+.label_proveedores {
+  /*  border: 1px red solid;*/
+  padding: 5px;
+  margin-top: 1px;
+  width: 100px;
+  text-align: center;
+}
+
+.seleccionado_borrar {
+  background-color: white;
+}
+
+.swal2-container {
+  z-index: 2002;
+}
+
+/* th.dt-center, td.dt-center {
+  text-align: center;
+} */
+
+.margen_modal {
+  margin-top: 5%
+}
+
+/* Ensure that the demo table scrolls */
+
+
+.explicacion_estados{
+  font-weight: bold;
+  
+}
+
+div.container {
+  width: 80%;
+}
+
+@media (min-width: 768px) {
+  .modal-xl {
+    width: 80%;
+    max-width: 1200px;
+  }
+}
+
+@media screen and (max-width:1000px) and (min-width:0px) {
+  .separacion {
+    margin-bottom: 2%;
+  }
+  .margen_modal {
+    margin-top: 15%
+  }
+}
+
+.cont_butones{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin:auto;
+  width: 70%;
+  margin-top: 15px;
+
+}
+.cont_butones button{
+  padding: 10px;
+  width: 30%;
+  
+}

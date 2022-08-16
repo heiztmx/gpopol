@@ -1,0 +1,11 @@
+@media screen and (max-width:1000px) and (min-width:0px) {
+    
+.ocultarHora{
+	display: none;
+}
+
+}
+
+.subir{
+	margin-top: -35px;
+}

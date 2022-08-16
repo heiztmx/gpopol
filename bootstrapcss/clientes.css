@@ -1,0 +1,85 @@
+.formulario{
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	width: 60%;
+	transform: translate(-50%, -50%);
+}
+
+.archivo{
+	
+	margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+
+	justify-content: space-between;
+	margin-top: 50px;
+	
+}
+.p_titulo{
+	background: #008558;
+	width: 100% !important;
+	text-align: center;
+	color: white;
+	margin: auto;
+	font-weight: bold;
+}
+.div_file{
+	padding: 10px;
+
+
+}
+
+
+.contenedor_documentos{
+	display: flex;
+
+	justify-content: space-between;
+	flex-direction: column;
+	width: 100%;
+	/*border: 1px red solid;*/
+}
+.sub_cont_documentos{
+	width: 100%;
+	display: flex;
+	margin-bottom: 20px;
+	/*border: 1px red solid;*/
+}
+
+.sub_cont_documentos input{
+/*  position: relative;
+top: 50px;*/
+font-family: calibri;
+/*  width: 150px;*/
+padding: 10px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border: 1px dashed #BBB;
+text-align: center;
+background-color: #DDD;
+cursor: pointer;
+width: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+/*	border: 1px red solid*/
+}
+.sub_cont_documentos div{
+	/*width: 60%;*/
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border: 1px dashed #BBB;
+	text-align: center;
+	/*background-color: #DDD;*/
+}
+
+h6{
+	text-align: center;
+	font-weight: bold;
+	font-family: calibri;
+}
+
+.multiselect-container>li>a>label {
+  padding: 4px 20px 3px 20px;
+}
+

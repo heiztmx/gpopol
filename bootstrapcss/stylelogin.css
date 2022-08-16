@@ -1,0 +1,70 @@
+    .div_padre_boton{
+    	width: 90%;
+    	margin-top: 30px;
+    	
+    }
+
+    .div_contenedor{
+    	top: 50%;
+    	left: 50%;
+    	position: absolute;
+    	width: 100%;
+    	transform: translate(-50%, -50%);
+
+    }
+    .contenedor_boton_registro{
+    	width:25%;
+    	
+    	display: flex;
+    	justify-content: center;
+    	align-items: center;
+    }
+
+    .contenedor_registro{
+    	
+    	display: flex;justify-content: center;align-items: center;
+    	top: 35%;
+    	left: 50%;
+    	position: absolute;
+    	width: 60%;
+    	transform: translate(-50%, -50%);
+    	
+
+
+    }
+    .cont_input{
+    	width: 75%;
+    	margin: auto;
+    	margin-bottom: 25px;
+    }
+    .centrar{
+    		display: flex;
+    		justify-content: center;
+    		align-items: center;
+    		width: 100%;
+    }
+    @media screen and (max-width:1000px) and (min-width:0px) {
+    	.div_padre_boton{
+    		width: 97%;
+    		margin-top: 30px;
+
+    	}
+
+    	.contenedor_registro{
+
+    	
+    		top: 35%;
+    		left: 50%;
+    		position: absolute;
+    		width: 100%;
+    		transform: translate(-50%, -50%);
+    		padding: 15px;
+
+
+    	}    
+    	.cont_input{
+    		width: 100%;
+
+    	}
+
+    }
