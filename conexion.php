@@ -7,7 +7,7 @@ class conexion{
 	
 	function conectar() {
 		try {
-			$host='\\BD\\WEBPRECIOS.FDB';
+			$host='\\home\\site\\wwwroot\\BD\\WEBPRECIOS.FDB';
 			$user="SYSDBA";
 			$password="masterkey";
 
