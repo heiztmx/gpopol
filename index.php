@@ -48,7 +48,7 @@
 			</div>
 			<div class="row d-flex flex-row col-lg-12 mx-auto flex-column">
 				<button type="button" class="btn btn-secondary mx-auto col-lg-10 p-2 m-3" id="btnlogin" onclick="logear()">Entrar</button>
-				<a target="_blank" href="../gpopol/general/envio_correo" class="mx-auto">Olvidé mi contraseña</a>
+				<a target="_blank" href="../gpopol/general/envio_correo.php" class="mx-auto">Olvidé mi contraseña</a>
 			</div>
 			<div class="row m-3">
 	
